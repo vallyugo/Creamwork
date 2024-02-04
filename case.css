@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+body{
+    overflow-x: hidden;
+    padding: 0px;
+    margin: 0px;
+    font-family: Lato;
+}
+
+.container{
+    background-image: url("images/Homepage.png");
+    height: 750px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+
+.formwork{
+    background-color: rgba(238, 253, 102, 0.4);
+    margin: 50px 0px 50px 0px;
+    padding: 50px 0px 50px 100px;
+    width: 500px;
+    
+    
+    
+}
+.control{
+    width: 300px;
+    height: 30px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    border: 1px solid #515151;
+}
+.bttn{
+    width: 310px;
+    height: 35px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    border: 1px solid green;
+    background-color: green;
+    color: white;
+}
+.bttn2{
+    width: 310px;
+    height: 35px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    border: 1px solid green;
+    background-color: lightgoldenrodyellow;
+    color: green;
+}
+.login{
+    text-align: center;
+    width: 310px;
+    font-weight: bold;
+}
+
+    a:link{
+        color: green;
+        text-decoration: none;
+    }
+
