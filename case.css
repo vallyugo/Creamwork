@@ -8,9 +8,8 @@ body{
 
 .container{
     background-image: url("images/Homepage.png");
-    height: 750px;
-    background-repeat: no-repeat;
     background-size: 100% 100%;
+    
 }
 
 
@@ -52,10 +51,49 @@ body{
     text-align: center;
     width: 310px;
     font-weight: bold;
-}
+ }
 
     a:link{
         color: green;
         text-decoration: none;
     }
 
+    
+
+    @media only screen and (max-width: 767px){
+        .formwork{
+            background-color: rgba(238, 253, 102, 0.4);
+            margin: 50px 0px 50px 0px;
+            padding: 50px 0px 50px 100px;
+            width: 500px;
+            
+            
+            
+        }
+        .container{
+            background-image: url("images/Homepage.png");
+            background-size: 100% 100%;
+        }
+        .control{
+            width: 300px;
+            height: 30px;
+            flex-shrink: 0;
+            border-radius: 8px;
+            border: 1px solid #515151;
+        }
+        .bttn2{
+            width: 310px;
+            height: 30px;
+            flex-shrink: 0;
+            border-radius: 8px;
+            border: 1px solid green;
+            background-color: lightgoldenrodyellow;
+            color: green;
+        }
+        .login{
+            text-align: center;
+            width: 300px;
+            font-weight: bold;
+         }
+    }
+    
